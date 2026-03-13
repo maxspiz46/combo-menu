@@ -1,0 +1,3 @@
+# iteration 1: in iteration one my main goal was to allow the user to select their main course, the sandwhich. when the user would type in their selection of sandwich from the list, the code would move on and display the cost of their choice
+# iteration 2: in iteration 2 the goal was to allow the user to choose different things to go along with their meal. the user could select a soda or water or not have a drink at all. the user was also able to select a desert
+# iteration 3: for iteration 3 I wanted to have the code show the user their total cost for the order when they were finished ordering. for iteration 3 I also wanted to iron out all of the kinks for the code. I made it so that it is ok for the user to not select anything and made sure there were no bugs.
