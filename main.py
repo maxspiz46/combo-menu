@@ -4,7 +4,6 @@ order_requested = True
 while order_requested:
     print ("select sandwich")
 
-    # Order the Sandwich
     sandwich = input("chicken,tuna,veggie, no sandwich: ")
     if sandwich == "chicken": 
         print("$13")
@@ -22,8 +21,7 @@ while order_requested:
         print ("select drink")
 
 
-    # TODO: Keep appending ot the order based on user selections
-    # Order the Drink
+    
     drink = input("soda, lemonade, water, no drink: ")
     if drink == "soda":
         soda = input("coke, sprite, Dr. Pepper: ")
@@ -44,9 +42,7 @@ while order_requested:
         total_cost += 6
         order.append(drink)
     elif drink == "no drink":
-        pass # TODO: This seems wrong?!
-
-    # Order the dessert=
+        pass 
     m = input("Would you like desert?")
     if m == "yes":
         desert = input ("cookie, cake, or brownie?")
@@ -72,13 +68,10 @@ while order_requested:
         total_cost = total_cost + 1*int(quantity)
     order_requested = (input("would you like to keep ordering?") == "yes")
 
-
-    # TODO: What about sauces? Need to accept count from user to multiple sauce price by
-
-    # TODO: Does the user request another round of ordering? prompt them and set a var
-
-# TODO: What about the combo special? Check for eligibility and discount total cost if necessary
-if total_cost == 23:
+combo_eligible = ("tuna" in order or "chicken" in order or "veggie" in order) \
+    and ("coke" in order or "sprite" in order or "Dr. Pepper" in order) \
+    and ("cookie" in order or "brownie" in order or "cak" in order)
+if combo_eligible:
     k = input("congatulations! you have selected the right combination for our deal! Please confirm yes to get 1$ off")
     if k == "yes":
         total_cost = total_cost - 1
