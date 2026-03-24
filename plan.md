@@ -1,3 +1,5 @@
 # iteration 1: in iteration one my main goal was to allow the user to select their main course, the sandwhich. when the user would type in their selection of sandwich from the list, the code would move on and display the cost of their choice
 # iteration 2: in iteration 2 the goal was to allow the user to choose different things to go along with their meal. the user could select a soda or water or not have a drink at all. the user was also able to select a desert
 # iteration 3: for iteration 3 I wanted to have the code show the user their total cost for the order when they were finished ordering. for iteration 3 I also wanted to iron out all of the kinks for the code. I made it so that it is ok for the user to not select anything and made sure there were no bugs.
+#iteration 4: incorparate the actual combo part of the code, when the user selects a certain combination of sandwhich, desert, and drink, they will be rewarded with $1 off of their order
+#iteration 5: for this iteration I am going to add in loops so that the user will be able to keep ordering once they go through the first loop. 
